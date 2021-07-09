@@ -1,0 +1,29 @@
+[package]
+name = 'gastimation'
+version = '0.0.0'
+authors = ['https://github.com/drbh']
+edition = '2018'
+description = 'Ethereum gas estimations in your shell'
+license = 'MIT/Apache-2.0'
+keywords = [
+    'ethereum',
+    'gas',
+    'cli',
+]
+homepage = 'https://github.com/drbh/gastimation'
+repository = 'https://github.com/drbh/gastimation.git'
+readme = 'README.md'
+
+[dependencies]
+reqwest = '0.11.4'
+chrono = '0.4.19'
+serde_json = '1.0.59'
+colorize = '0.1.0'
+
+[dependencies.tokio]
+version = '1.8.0'
+features = ['full']
+
+[dependencies.serde]
+version = '1.0'
+features = ['derive']
