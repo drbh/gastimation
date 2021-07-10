@@ -1,6 +1,9 @@
 # gastimation ⛽️
 
-[![crates.io](https://meritbadge.herokuapp.com/gastimation)](https://crates.io/crates/gastimation)
+<a href="https://crates.io/crates/gastimation">
+  <img alt="Crates.io" src="https://img.shields.io/crates/v/gastimation.svg">
+</a>
+
 
 ![gastimation screenshot](photos/screenshot.png)
 
